@@ -1,0 +1,29 @@
+body {
+    background-image: url('css/media/PSTECH.png');
+    background-size: cover; /* Isso faz com que a imagem cubra todo o elemento pai */
+    background-repeat: no-repeat; /* Isso evita que a imagem se repita */
+    background-attachment: fixed; /* Isso fixa a imagem no plano de fundo */
+    /* Outros estilos de background, como cor de fundo de backup, podem ser definidos aqui */
+}
+
+.table td, .table th{
+    border-top: 1px solid #000;
+}
+
+.btn-sm{
+    width: 100px;
+}
+
+/* Estilo para o formulário de pesquisa */
+.form-group {
+    display: inline-block; /* Torna o formulário inline */
+    margin-right: 10px; /* Espaçamento à direita para separar do botão */
+}
+
+
+/* Estilo para o botão de pesquisa */
+button.btn-primary {
+    vertical-align: top; /* Alinha o botão ao topo do campo de pesquisa */
+    background-color: green; /* Define a cor de fundo como verde */
+    color: white; /* Define a cor do texto como branco para contrastar com o verde */
+}

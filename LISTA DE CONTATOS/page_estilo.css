@@ -1,0 +1,83 @@
+body {
+    background-image: url('css/media/PSTECH.png');
+    background-size: cover; /* Isso faz com que a imagem cubra todo o elemento pai */
+    background-repeat: no-repeat; /* Isso evita que a imagem se repita */
+    background-attachment: fixed; /* Isso fixa a imagem no plano de fundo */
+    /* Outros estilos de background, como cor de fundo de backup, podem ser definidos aqui */
+}
+
+.table td, .table th{
+    border-top: 1px solid #000;
+}
+
+/* Adicione estas regras ao seu arquivo de estilo CSS */
+body {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+/* .container {
+    max-width: 700px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}  */
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: left;
+    border-radius: 7px;
+}
+
+/* label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+} */
+
+
+.input-group {
+    text-align: center;
+    max-width: 700px;
+}
+
+.input-group-text {
+    min-width: 700px;
+    text-align: center;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.btn-success {
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    margin-top: 10px;
+}
+
+.btn-secondary {
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    margin-top: 10px;
+}
